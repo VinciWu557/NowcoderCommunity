@@ -25,5 +25,6 @@ public interface DiscussPostMapper {
     // 当前参数只有一个, 且在动态标签 <if> 里使用, 必须要用 @Param
     int selectDiscussPostRows(@Param("userId") int userId);
 
+    int insertDiscussPost(DiscussPost discussPost);
 
 }

@@ -49,12 +49,6 @@
         </dependency>
 
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<scope>test</scope>
-		</dependency>
-
-		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.29</version>
@@ -81,6 +75,13 @@
 			<groupId>com.github.penggle</groupId>
 			<artifactId>kaptcha</artifactId>
 			<version>2.3.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<!--	发布帖子-Json需要的包		-->
+			<artifactId>fastjson</artifactId>
+			<version>1.2.76</version>
 		</dependency>
 
 	</dependencies>
