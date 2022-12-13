@@ -1,3 +1,4 @@
+// var CONTEXT_PATH = ""; >> 放到服务器时使用这个
 var CONTEXT_PATH = "/community";
 
 window.alert = function(message) {
